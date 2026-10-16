@@ -1,0 +1,27 @@
+# Personal data — never commit
+.env
+config/profile.yaml
+config/sources.yaml
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+# Copy to config/sources.yaml (gitignored) and list the companies you want to watch.
+#
+# Finding a company's token:
+#   Greenhouse -> the slug in https://boards.greenhouse.io/<board_token>
+#   Lever      -> the slug in https://jobs.lever.co/<company>
+
+greenhouse:
+  - board_token: examplecorp
+
+lever:
+  - company: exampleco
+
+prefilter:
+  title_include: ["Site Reliability", "SRE", "DevOps", "Platform Engineer", "AI Engineer"]
+  title_exclude: ["Intern", "Principal", "Director"]
+  locations: ["Remote", "Brazil"]
+  blocked_companies: []
+  max_daily_queue: 15

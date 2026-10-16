@@ -1,0 +1,14 @@
+# Copy to config/profile.yaml (gitignored). The scorer compares every posting against this.
+
+target_roles: ["Site Reliability Engineer", "AI Engineer"]
+seniority: ["mid", "senior"]
+
+skills:
+  strong: ["Kubernetes", "Terraform", "AWS", "Python", "Prometheus", "incident response"]
+  working: ["Azure", "GitHub Actions"]
+  learning: ["Go", "Java"]
+
+preferences:
+  work_mode: ["remote", "hybrid"]
+
+dealbreakers: ["unpaid trial work"]
